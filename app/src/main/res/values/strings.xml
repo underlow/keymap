@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KeyMap</string>
+    <string name="service_description">Remaps remote control buttons to launch apps or toggle mute.</string>
+</resources>
