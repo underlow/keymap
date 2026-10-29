@@ -91,3 +91,9 @@ the controls. Add this to the config and allow media session access (see Install
 One press then pauses or resumes. KeyMap acts only when Plex is on screen with a video playing or
 paused and no button was pressed for 4.5 s, so the controls are hidden. With the controls on screen
 and in menus the button works as usual.
+
+This works reliably only with theme music turned off in Plex settings. Plex publishes a media
+session only for a player it creates for a video. When theme music plays on a show's page, Plex
+creates its player for the music, without a session, and then plays the video in that same
+player, still without a session. KeyMap pauses through the session, so then the button only shows
+the controls.
